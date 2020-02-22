@@ -219,7 +219,7 @@ body {
 }
 
 .contact{
-    width: 100%;
+    width: 100vw;
     display: inline-block;
     background-color: rgba(203, 195, 195)
 }
