@@ -1,4 +1,9 @@
 body {
+    @media only screen and (max width:  375px){
+        {width: 100vw;
+        }
+    }
+   
     font-family:  'Courier';
     text-align: center;
     background-color: #eee;
@@ -7,6 +12,7 @@ body {
 }
 
 .navbar{
+    
     z-index: 100;
     position: fixed;
     left: 0;
@@ -34,11 +40,11 @@ body {
 
 
 .about{
-    
+     
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: rgb(78, 83, 96);
-  
+    
 }
 
 .pic{
@@ -87,6 +93,7 @@ body {
     height: 110%;
     border-top: 5px solid black;
     border-bottom: 5px solid black;
+    width: 100vw;
 }
 .projects-container{
     background-color: #eee;
